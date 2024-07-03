@@ -1,9 +1,12 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/:path(.*)",
-      "destination": "https://xceloreadmin.onrender.com"
-    },
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}
+   "rewrites": [
+       {
+           "source": "path(.*)",
+           "destination": "https://xceloreadmin.onrender.com/"
+       },
+       {
+           "source": "/(.*)",
+           "destination": "/"
+       }
+   ]
+ }
