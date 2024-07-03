@@ -5,6 +5,7 @@ To run the application
 3) cd client and run command (npm run dev)
 4) cd server and run command (npm run dev)
 5) I am giving env file in github repo itself so there won't be problem in running this application in Local
+6) http://localhost:5173 (use this URL to see the project)
 
 This Application consists all the Features given in the Assignment
 AdminPanel Feature
