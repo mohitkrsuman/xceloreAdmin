@@ -3,7 +3,7 @@ To run the application
 1) Clone the project
 2) run npm install in both client and server
 3) cd client and run command (npm run dev)
-4) cd server and run command (npm run start)
+4) cd server and run command (npm run dev)
 5) I am giving env file in github repo itself so there won't be problem in running this application in Local
 
 This Application consists all the Features given in the Assignment
