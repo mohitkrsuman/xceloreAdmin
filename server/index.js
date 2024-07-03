@@ -7,9 +7,12 @@ import adminRoutes from './routes/adminRoutes.js';
 const app = express();
 const PORT = process.env.PORT || 4121;
 
-dotenv.config();
-app.use(cors());
+app.use(cors({
+   origin: ["https://xcelore-admin.vercel.app"],
+   methods: ["GET", "POST", "PUT", "UPDATE"],
+ }));
 app.use(express.json());
+dotenv.config();
 
 connectDB(process.env.MONGO_DB_URI);
 
