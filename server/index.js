@@ -5,7 +5,7 @@ import cors from 'cors';
 import userRoutes from './routes/userRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
 const app = express();
-const PORT = 4000 || process.env.PORT;
+const PORT = process.env.PORT || 4121;
 
 dotenv.config();
 app.use(cors());
