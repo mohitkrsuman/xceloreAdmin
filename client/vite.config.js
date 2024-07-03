@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
      'proxy': {
-        '/api': 'https://xceloreadmin.onrender.com/',
+        '/api': 'https://xceloreadmin.onrender.com',
      }
   }
 })
